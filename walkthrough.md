@@ -148,9 +148,9 @@ Still, its good practice to pull a repo before you start making changes. This wa
 
 _I make changes to my repository, and you don't have them. But you've already forked my repository, and maybe you've even made changes of your own. You don't want to (aka can't) refork. You can label my fork with the handy nicknames we mentioned earlier. Yours is origin. We will call mine upstream._
 
-If you're repeating this after the workshop, you probably already got the attendance sheet (`attendance.txt`) when you forked the repo. Sorry, about that. You'll have to use your imagination for this section.
+If you're repeating this after the workshop, you probably already got the attendance sheet (`attendance.md`) when you forked the repo. Sorry, about that. You'll have to use your imagination for this section.
 
-Say that I just added the attendance list document to my repo after you forked it. You don't want to fork again, but you want to get that text file as part of your repo. Wouldn't it be great if you could also pull from my repo? You can!
+Say that I just added the attendance list document to my repo after you forked it. You don't want to fork again, but you want to get that markdown file as part of your repo. Wouldn't it be great if you could also pull from my repo? You can!
 
 I mentioned before that the nickname of your forked repo was *origin*. Well, you can also nickname my repo, with the conventional name being *upstream*. This way, instead of just having your one remote, you'll have two: mine and yours!
 
@@ -183,9 +183,9 @@ $ git pull upstream master
 ```
 _you have my changes locally, but again, they're not on github; push the changes to github_
 
-Now, if you check your directory, you have my changes (the attendance list, `attendance.txt`) in your local. You can push these to remote using all the same steps as before.
+Now, if you check your directory, you have my changes (the attendance list, `attendance.md`) in your local. You can push these to remote using all the same steps as before.
 
-Add your name, year, and field to `attendance.txt` and push it to your remote.
+Add your name, and year to `attendance.md` and push it to your remote.
 
 
 ## No such thing as bad PR
