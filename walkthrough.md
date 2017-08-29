@@ -46,10 +46,10 @@ Some ideas:
 * add to your README
 * find a license
 * make a shell script
-	(feel free to copy this one liner for a find-and-replace algorithm)
+	(feel free to copy this one liner for a find-and-replace algorithm; run it by supplying the word to find, the word to replace and the file to act on–all in order–after calling the program)
 	
 	```
-	sed blah blah blah
+	sed s/"$1"/"$2"/ "$3" > "new_$3"
 	```
 
 _add and commit everything_
@@ -87,7 +87,7 @@ This is the process you will repeat over and over. Make changes. Add and commit.
 You can keep trying if you want. For instance, try updating the find-and-replace shell script you made before. That one only replaced the first word on every line, but if you change the single line of code to
 
 ```
-sed bleh bleh bleh
+sed s/"$1"/"$2"/g "$3" > "new_$3"
 ```
 it will change all occurrences of the word in your document. 
 
