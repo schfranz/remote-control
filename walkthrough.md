@@ -180,7 +180,7 @@ To get around this, you can checkout a separate branch of the project. Name it a
 
 Once the pull request goes through, you can either go back to using the branch again, or delete it completely.
 
-For more explicit instructions on how and why to use branches, read this article: [Do not issue pull requests from your master branch](http://blog.jasonmeridth.com/posts/do-not-issue-pull-requests-from-your-master-branch/)
+For more explicit instructions on how and why to use branches, read this article: [Do not issue pull requests from your master branch](http://blog.jasonmeridth.com/posts/do-not-issue-pull-requests-from-your-master-branch/).
 
 
 
