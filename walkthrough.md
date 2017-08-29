@@ -1,6 +1,6 @@
 ![](octocat_32px.png)
 # Remote (version) control 
-Mitch Negus 
+###### Mitch Negus 
 
 _All the things we cover are in the walkthrough.md file on my GitHub page_  
 _Feel free to follow along there if you get lost (though its probably better if you just let me know if you get stuck since those notes are a bit wordy and I can probably help you get caught up faster)_
@@ -203,6 +203,6 @@ Article: [Do not issue pull requests from your master branch](http://blog.jasonm
 ![](octocat_32px.png)
 
 ---
-Inspired by Software Carpentry. For more practice see their [Version Control with Git](https://swcarpentry.github.io/git-novice/) lesson.
+Inspired by Software Carpentry. For more practice, see their [Version Control with Git](https://swcarpentry.github.io/git-novice/) lesson.
 
 Last updated: August, 2017.
