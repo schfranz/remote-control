@@ -10,9 +10,9 @@
 
 ## Attack of the Clones
 
-To start, you need a repository. You can start with one on your machine, but if you want to use GitHub I find it easiest to just start there.
+To start, you need a repository. One way to begin is to make one on your own machine and connect it, but I find it's often easiest to just start on the GitHub website.
 
-
+### Make and clone a repo
 _make and clone a github repo, name it whatever you want "test\_<name>" or whatever_
 
 1. Click the `+` dropdown next to your profile picture on the top right of any GitHub page and select "New Repository"
@@ -22,9 +22,25 @@ _make and clone a github repo, name it whatever you want "test\_<name>" or whate
 	* initialize it with a readme
 
 	Once you've got all that, hit the green button at the bottom. Now you have a GitHub repo.
-3. asd
+3. Go to the repository and click the green button saying "Clone or download" on the right side of the page. Copy the URL shown beneath the title "Clone with HTTPS"
+4. Return to the command line on your computer, go wherever you think makes the most sense to clone (copy) the repo, and type
 
+	```
+	git clone <copied-URL>
+	```
 
+You're all set! Now you have a GitHub repo and a local clone. Let's put some stuff in it so we can actually start playing around. 
+
+Some ideas:
+
+* add to your README
+* find a license
+* make a shell script
+	(feel free to copy this one liner for a find-and-replace algorithm)
+	
+	```
+	sed blah blah blah
+	```
 _add your name and a one-to-three sentence bio or phrase to your README_
 
 _make a shell script (find and replace-once)_
