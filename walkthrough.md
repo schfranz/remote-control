@@ -168,7 +168,20 @@ At that point, I also have the ability to see a comparison of the two. If everyt
 
 ## Let's branch out a little.
 
-Article: [Do not issue pull requests from your master branch](http://blog.jasonmeridth.com/posts/do-not-issue-pull-requests-from-your-master-branch/)
+Finally, I mentioned earlier that you might eventually want more branches in your repo than just the master branch. To illustrate, here's a scenario (adapted from a true story):
+
+> You are contributing to matplotlib, a large open source project. You've forked the master branch of the project, cloned the repo spent a couple days fixing a bug in the code. You finally get it solved, you commit your changes to your master branch, and issue a pull request, feeling super proud that you contributed to a body of code that is used by people all over the globe. You're so excited, you go back to fix another issue on the seemingly endless list of bugs. 
+> 
+> You work on it for a while, and again think you find a solution. You make a change and commit it. This time though, when you test the solution, something else throws an error in the code. You're stumped. 
+> 
+> Meanwhile, at headquarters, a veteran matplotlib contributor is looking at your code. They think "Wow, that's a great fix!" As they get ready to merge it into the whole project, they notice that your latest commit introduced a new error. Unbeknownst to you, that commit was also included in the pull request, *even though you committed after issuing the pull request.* Despite your sweet fix, they can't merge your changes into the project.
+
+To get around this, you can checkout a separate branch of the project. Name it anything you want, make your changes and commits in that branch, and when you go to issue the pull request, issue it for the new branch. Now, if you go on to make more changes, make those in a another new branch. Your commits to the first new branch will remain clean, and anything you do to the second new branch will be kept in isolation.
+
+Once the pull request goes through, you can either go back to using the branch again, or delete it completely.
+
+For more explicit instructions on how and why to use branches, read this article: [Do not issue pull requests from your master branch](http://blog.jasonmeridth.com/posts/do-not-issue-pull-requests-from-your-master-branch/)
+
 
 
 ![](octocat_32px.png)
