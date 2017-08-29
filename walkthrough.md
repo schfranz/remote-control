@@ -10,6 +10,7 @@
 * Copy other people's cool things and give them your own flair
 
 
+
 ## Attack of the Clones
 
 To start, you need a repository. One way to begin is to make one on your own machine and connect it, but I find it's often easiest to just start on the GitHub website.
@@ -126,16 +127,12 @@ Say that I just added the attendance list document to my repo after you forked i
 
 I mentioned before that the nickname of your forked repo was *origin*. Well, you can also nickname my repo, with the conventional name being *upstream*. This way, instead of just having your one remote, you'll have two: mine and yours!
 
-_call git remote_
-
 First, lets see what remotes we already have. Type 
 
 ```
 $ git remote -v
 ```
 and you should see the output list two remotes labeled `origin` (exactly the same, except one is fetch and the other is push). 
-
-_use git remote add_
 
 Adding an upstream is as simple as entering
 
@@ -145,8 +142,6 @@ $ git remote add upstream <upstream-URL>
 where you again use the remote nickname and the branch. The URL is the same one you would use to clone the upstream repo. 
 
 Use `git remote -v` again and now you should have four remotes. Two labeled origin and two labeled upstream.
-
-_pull upstream_
 
 Now, pull from upstream using the same syntax as for pulling from your own remote, just swap *origin* for *upstream*:
 
@@ -159,8 +154,16 @@ Now, if you check your directory, you have my changes (the attendance list, `att
 Add your name and year to `attendance.md` and push it to your remote.
 
 
+
 ## No such thing as bad PR
-(the OSS gurus will hunt me down for that one)
+(Don't tell the OSS gurus I said that.)
+
+Earlier, I mentioned that GitHub is nice because your changes won't affect the upstream repo. It gives you the freedom to mess around without being able to break anything permanently. Still, what if you have something really good. Well, then you can issue a pull request. Pull requests (PRs) let the owner of an upstream repository pull your repo fork into theirs if they like what they see. 
+
+To issue a pull request, go to the pull requests tab in your repo and click the link to "Create a pull request." GitHub will then give you a status report of how well the current fork and the upstream fork match up. If it looks like they play nice, do what you always do and hit the green button. 
+
+At that point, I also have the ability to see a comparison of the two. If everything checks out, I'll merge your changes into my repo, and everybody's happy!
+
 
 
 ## Let's branch out a little.
