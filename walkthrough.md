@@ -155,7 +155,7 @@ Add your name and year to `attendance.md` and push it to your remote.
 
 
 
-## No such thing as bad PR
+## There's no such thing as bad PR
 (Don't tell the OSS gurus I said that.)
 
 Earlier, I mentioned that GitHub is nice because your changes won't affect the upstream repo. It gives you the freedom to mess around without being able to break anything permanently. Still, what if you have something really good. Well, then you can issue a pull request. Pull requests (PRs) let the owner of an upstream repository pull your repo fork into theirs if they like what they see. 
